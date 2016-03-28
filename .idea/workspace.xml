@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12e4a22-93a6-4c11-ba91-3a30884c4edf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="c12e4a22-93a6-4c11-ba91-3a30884c4edf" name="Default" comment="" />
     <ignored path="mission-2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -593,12 +590,12 @@
       <option name="number" value="Default" />
       <updated>1459083272808</updated>
       <workItem from="1459083274208" duration="4473000" />
-      <workItem from="1459134199853" duration="6687000" />
+      <workItem from="1459134199853" duration="6825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11160000" />
+    <option name="totallyTimeSpent" value="11298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="396" y="79" width="930" height="581" extended-state="0" />
