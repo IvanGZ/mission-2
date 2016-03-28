@@ -6,7 +6,7 @@
     <link href="css/css.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
+    <header class="container">
         <nav>
             <span><img src="image/2.png" class="logo"></span>
             <ul>
@@ -16,7 +16,7 @@
                 <li><a href="#">导航链接四</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
     <section>
         <article>
             <h2>文章一级标题</h2>
@@ -31,7 +31,7 @@
             <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
                 这是一个很长很长的段落，<a href="http://ife.baidu.com">这是一个网页链接</a>这是一个很长很长
                 的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
-            <img src="image/1.jpg">
+            <img src="image/1.jpg" class="photo1">
             <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
                 这是一个很长很长的段落，换行了</p>
             <br />
@@ -39,7 +39,7 @@
                 <a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
                 这是一个很长很长的段落，</p>
         </article>
-        <article>
+        <article class="clearfix">
             <h2>另一篇文章一级标题</h2>
             <header>
                 <h3>文章二级标题</h3>
@@ -49,13 +49,16 @@
             <br />换行了
             <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长
                 的段落，这是一个很长很长的段落,<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，
-                这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+                这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落</p>
+            <img src="image/1.jpg" class="photo1"><br />
             <ul>
                 <li>列表项目一</li>
                 <li>列表项目二</li>
                 <li>列表项目三</li>
             </ul>
-            <h1>图片</h1>
+         </article>
+        <article>
+            <h2>图片</h2>
             <figure>
                 <figcaption>好看的图片</figcaption>
                 <img src="image/1.jpg" alt="这是杜格拉斯">
@@ -108,7 +111,7 @@
                 <li>排名2</li>
                 <li>排名3</li>
             </ol>
-            <table border="1px solid">
+            <table>
                 <caption align="left">我是表格标题</caption>
                 <tr><td>表头</td><td>表头</td><td>表头</td></tr>
                 <tr><td>表内容单元格</td><td>表内容单元格</td><td>操作</td></tr>

@@ -1,7 +1,18 @@
 /**{margin: 0px; padding: 0px;}*/
 
-h2{margin: 10px 0px}
+body{
+    background:silver;
+    font-family: '宋体';
+    font-size: 12px;
+}
+
+h2 {
+    font-weight:bold;
+    font-size: 24px;
+    margin: 10px 0px;
+}
 h3{
+    font-size: 20px;
     color: dimgrey;
     margin: 10px 0px;
 }
@@ -16,9 +27,115 @@ h3{
     color: dimgrey;
 }
 
-
-
+/*.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}*/
+/*导航*/
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: darkslategrey;
+    box-shadow: 0 2px 4px #c9c9c9;
+    line-height: 50px;
+    clear: both;
+}
 .logo{
-    height:70px;
+    float: left;
+    height: 70px;
     width: 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: medium;
+}
+
+nav ul li a{
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: firebrick;
+}
+
+/*文章*/
+article{
+    margin: 20px;
+    padding:35px 20px;
+    background-color: antiquewhite;
+    box-shadow: cornflowerblue 2px 2px 2px;
+}
+
+article p{
+    text-indent:2em;
+    font-size: 14px;
+    line-height: 2.0;
+    margin:10px 0;
+}
+
+.photo1{
+    height: 250px;
+    width: auto;
+}
+
+article p a {
+    color: #3332d7;
+}
+
+article p a:hover{
+    color: firebrick;
+}
+
+article ul li{
+    list-style:none;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/*图片*/
+article figure{
+    width: 140px;
+    height: 180px;
+    border: 1px burlywood solid;
+}
+article figure figcaption{
+    margin: 10px ;
+    text-align: center;
+}
+article figure img{
+    height:auto;
+    width:120px;
+    margin: 10px;
+}
+
+/*最后一篇文章表格*/
+article ol li{
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+article table caption{
+    font-size: 15px;
+    font-weight: bold;
+}
+article table tr td{
+    border: silver 1px solid;
+    margin: 0;
 }
